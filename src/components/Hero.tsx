@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 import { urlFor } from '@/sanity/lib/image'
 
@@ -8,11 +9,15 @@ const Hero = ({ data }: { data: blog }) => {
     <div className="text-gray-600 body-font md:mt-28 mt-5 mb-20">
       <div className="container mx-auto px-5 py-6">
         <div className="border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden h-full">
-          <img
+
+           <Image
             className="lg:h-48 md:h-36 w-full object-cover object-center transition-transform duration-500 ease-in-out hover:scale-95"
             src={urlFor(data.image).url()}
             alt="blog"
-          />
+            width={500}
+            height={500}
+           />
+            
           <div className="p-6">
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
               {data.title}

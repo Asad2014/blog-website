@@ -9,13 +9,15 @@ const About = () => {
             About Us
           </h2>
           <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-            Welcome to our cryptocurrency blog, your ultimate source for all things related to the world of digital currencies. 
-            Whether you're new to crypto or a seasoned investor, our blog is dedicated to providing insightful and up-to-date information about the latest trends, technologies, and developments in the crypto space.
+          Welcome to our cryptocurrency blog, your ultimate source for all things related to the world of digital 
+          currencies.Whether you&apos;re new to crypto or a seasoned investor, our blog is dedicated to providing 
+          insightful and up-to-date information  about the latest trends, technologies, and developments in the crypto 
+          space.
           </p>
           <p className="text-lg text-gray-700 leading-relaxed">
-            We strive to break down complex topics into easy-to-understand content, offering guides, news, market analysis, and expert opinions. 
-            Our goal is to educate, inform, and empower you to navigate the evolving landscape of cryptocurrency with confidence. 
-            Stay connected, and explore our articles to stay ahead of the curve in the world of digital assets!
+          We strive to break down complex topics into easy-to-understand content, offering guides, news, market analysis,
+           and expert opinions.Our goal is to educate, inform, and empower you to navigate the evolving landscape of cryptocurrency 
+           with confidence.Stay connected, and explore our articles to stay ahead of the curve in the world of digital assets!
           </p>
         </div>
       
